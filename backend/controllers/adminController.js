@@ -86,6 +86,7 @@ const addDoctor = async (req, res) => {
 };
 
 //API for ADMIN LOGIN
+
 const loginAdmin = async (req, res) => {
   try {
     const { email, password } = req.body;
